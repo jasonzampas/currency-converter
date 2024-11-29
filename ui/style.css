@@ -4,18 +4,55 @@ body {
     font-family: 'Poppins';
 }
 
-#amount {
-    border-radius: 8px;
-    border-width: 1px;
-    border-color: rgb(63, 63, 63);
-    border-style: solid;
+.converter {
+    display: flex;
+}
+
+.amount {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
     padding-left : 16px;
     padding-right: 16px;
     padding-top : 12px;
     padding-bottom: 12px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    border-style: solid;
+    width: 400px;
+}
+
+.from-currency,
+.to-currency {
+    display: flex;
+    flex-direction: column;
+    padding-left : 16px;
+    padding-right: 16px;
+    padding-top : 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    border-style: solid;
+    width: 250px;
+}
+
+#from_currency,
+#to_currency {
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+#amount-input {
+    border-width: 0px;
     font-size: 24px;
     font-weight: bold;
     stroke-dasharray: none;
+}
+
+#amount-input:focus {
+    outline: none;
+    border: none;
 }
 
 input::-webkit-outer-spin-button,

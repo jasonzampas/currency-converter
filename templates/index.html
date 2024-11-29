@@ -9,33 +9,42 @@
 <body>
     <h1>Currency Converter</h1>
     <form method="POST">
-        <label for="from_currency">From Currency:</label>
-        <select name="from_currency" id="from_currency">
-            {% for currency_code, currency_name in currencies.items() %}
-                <option value="{{ currency_code }}">
-                    {{ currency_name }} ({{ currency_code.upper() }})
-                </option>
-            {% endfor %}
-        </select><br>
-    
-        <label for="to_currency">To Currency:</label>
-        <select name="to_currency" id="to_currency">
-            {% for currency_code, currency_name in currencies.items() %}
-                <option value="{{ currency_code }}">
-                    {{ currency_name }} ({{ currency_code.upper() }})
-                </option>
-            {% endfor %}
-        </select><br>
-    
-        <label for="amount">Amount:</label>
-        <input type="number" name="amount" id="amount" step="0.01" required><br>
-    
+        <div class="converter">
+            <div class="amount">
+                <span>Amount</span>
+                <input type="number" id="amount-input" required>
+            </div>   
+
+            <div class="from-currency">
+                <span>From:</span>
+                <select name="from_currency" id="from_currency">
+                    {% for currency_code, currency_name in currencies.items() %}
+                        <option value="{{ currency_code }}">
+                            {{ currency_name }} ({{ currency_code.upper() }})
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="to-currency">
+                <span>To:</span>
+                <select name="to_currency" id="to_currency">
+                    {% for currency_code, currency_name in currencies.items() %}
+                        <option value="{{ currency_code }}">
+                            {{ currency_name }} ({{ currency_code.upper() }})
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        
         <button type="submit">Convert</button>
+
     </form>
     
     {% if result %}
         <h2>{{ result }}</h2>
-    {% endif %}    
+    {% endif %}
     
 </body>
 </html>
