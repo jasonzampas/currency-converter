@@ -41,16 +41,17 @@ body {
     outline: none;
     border: none;
     font-size: 16px;
+    background-color: rgb(255, 255, 255);
 }
 
-#amount-input {
+#amount {
     border-width: 0px;
     font-size: 24px;
     font-weight: bold;
     stroke-dasharray: none;
 }
 
-#amount-input:focus {
+#amount:focus {
     outline: none;
     border: none;
 }
