@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <form method="POST">
+        <label for="from_currency">From Currency:</label>
+        <select name="from_currency" id="from_currency">
+            <option value="{{ currency_code}}">
+                United States Dollar (USD)
+            </option>
+        </select><br>
+    
+        <label for="to_currency">To Currency:</label>
+        <select name="to_currency" id="to_currency">
+            <option value="{{ currency_code }}">
+                Pound Sterling (GBP)
+            </option>
+        </select><br>
+    
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" id="amount" required><br>
+    
+        <button type="submit">Convert</button>
+    </form>
+    
+    <h2>1 USD = 0.8 GBP</h2>
+    
+</body>
+</html>
