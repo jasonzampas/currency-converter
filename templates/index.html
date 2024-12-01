@@ -20,9 +20,9 @@
                     <span>From:</span>
                     <select name="from_currency" id="from_currency">
                         <option value="0">Select Currency:</option>
-                        {% for currency_code, currency_name in currencies.items() %}
+                        {% for currency_code, currency_info in currencies.items() %}
                             <option value="{{ currency_code }}">
-                                {{ currency_name }} ({{ currency_code.upper() }})
+                                {{ currency_info['name'] }} ({{ currency_info['code'] }})
                             </option>
                         {% endfor %}
                     </select>
@@ -32,9 +32,9 @@
                     <span>To:</span>
                     <select name="to_currency" id="to_currency">
                         <option value="0">Select Currency:</option>
-                        {% for currency_code, currency_name in currencies.items() %}
+                        {% for currency_code, currency_info in currencies.items() %}
                             <option value="{{ currency_code }}">
-                                {{ currency_name }} ({{ currency_code.upper() }})
+                                {{ currency_info['name'] }} ({{ currency_info['code'] }})
                             </option>
                         {% endfor %}
                     </select>

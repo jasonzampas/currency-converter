@@ -1,49 +1,42 @@
 {
-    "EUR": "Euro",
-    "GBP": "Pound Sterling",
-    "JPY": "Japanese Yen",
-    "AUD": "Australian Dollar",
-    "CAD": "Canadian Dollar",
-    "CHF": "Swiss Franc",
-    "CNY": "Chinese Yuan",
-    "HKD": "Hong Kong Dollar",
-    "NZD": "New Zealand Dollar",
-    "INR": "Indian Rupee",
-    "MXN": "Mexican Peso",
-    "BRL": "Brazilian Real",
-    "RUB": "Russian Ruble",
-    "SEK": "Swedish Krona",
-    "SGD": "Singapore Dollar",
-    "KRW": "South Korean Won",
-    "ZAR": "South African Rand",
-    "NOK": "Norwegian Krone",
-    "TRY": "Turkish Lira",
-    "AED": "UAE Dirham",
-    "THB": "Thai Baht",
-    "DKK": "Danish Krone",
-    "PLN": "Polish Zloty",
-    "HUF": "Hungarian Forint",
-    "CZK": "Czech Koruna",
-    "ILS": "Israeli New Shekel",
-    "MYR": "Malaysian Ringgit",
-    "PHP": "Philippine Peso",
-    "SAR": "Saudi Riyal",
-    "EGP": "Egyptian Pound",
-    "VND": "Vietnamese Dong",
-    "IDR": "Indonesian Rupiah",
-    "COP": "Colombian Peso",
-    "PKR": "Pakistani Rupee",
-    "KWD": "Kuwaiti Dinar",
-    "BHD": "Bahraini Dinar",
-    "OMR": "Omani Rial",
-    "QAR": "Qatari Rial",
-    "KES": "Kenyan Shilling",
-    "BDT": "Bangladeshi Taka",
-    "MAD": "Moroccan Dirham",
-    "LKR": "Sri Lankan Rupee",
-    "RSD": "Serbian Dinar",
-    "ISK": "Icelandic Krona",
-    "JOD": "Jordanian Dinar",
-    "TWD": "Taiwan Dollar",
-    "UAH": "Ukrainian Hryvnia"
+    "EUR": {
+        "name": "Euro",
+        "code": "EUR",
+        "symbol": "\u20AC"
+    },
+    "GBP": {
+        "name": "Pound Sterling",
+        "code": "GBP",
+        "symbol": "\u00A3"
+    },
+    "JPY": {
+        "name": "Japanese Yen",
+        "code": "JPY",
+        "symbol": "\u00A5"
+    },
+    "AUD": {
+        "name": "Australian Dollar",
+        "code": "AUD",
+        "symbol": "AU\u0024"
+    },
+    "CAD": {
+        "name": "Canadian Dollar",
+        "code": "CAD",
+        "symbol": "CA\u0024"
+    },
+    "USD": {
+        "name": "United States Dollar",
+        "code": "USD",
+        "symbol": "\u0024"
+    },
+    "CNY": {
+        "name": "Chinese Yuan",
+        "code": "CNY",
+        "symbol": "CN\u00A5"
+    },
+    "INR": {
+        "name": "Indian Rupee",
+        "code": "INR",
+        "symbol": "\u20B9"
+    }
 }
