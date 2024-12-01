@@ -6,6 +6,36 @@ body {
 
 .converter {
     display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 12px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    border-style: solid;
+    width: fit-content;
+}
+
+#submit {
+    width: 18%;
+    height: 40px;
+    align-self: flex-end;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(60, 60, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: rgb(105, 105, 245);
+}
+
+.amount-from-to {
+    display: flex;
 }
 
 .amount {
@@ -20,6 +50,7 @@ body {
     border-radius: 8px;
     border-style: solid;
     width: 400px;
+    height: 60px;
 }
 
 .from-currency,
@@ -34,6 +65,7 @@ body {
     border-radius: 8px;
     border-style: solid;
     width: 250px;
+    height: 60px;
 }
 
 #from_currency,
@@ -60,4 +92,8 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
 }
