@@ -34,15 +34,16 @@ This is a simple currency converter web application built using Flask, using rea
 
 After setting up the environment, run the Flask app:
 
-    ```bash
-    flask run
-    ```
+   ```bash
+   flask run
+   ```
 
 The app will be accessible at http://127.0.0.1:5000.
 
-🤝 Contributing
+##🤝 Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. 🌱
-📜 License
+
+##📜 License
 
 This project is open-source and available under the MIT License.
