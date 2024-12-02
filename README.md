@@ -40,10 +40,10 @@ After setting up the environment, run the Flask app:
 
 The app will be accessible at http://127.0.0.1:5000.
 
-##🤝 Contributing
+## 🤝 Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. 🌱
 
-##📜 License
+## 📜 License
 
 This project is open-source and available under the MIT License.
